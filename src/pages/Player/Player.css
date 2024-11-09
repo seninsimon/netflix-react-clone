@@ -1,0 +1,12 @@
+.player
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player iframe
+{
+    border-radius: 10px;
+}

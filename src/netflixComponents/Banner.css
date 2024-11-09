@@ -1,0 +1,103 @@
+.Banner
+{
+    height: 750px;
+    
+}
+
+.banner-contents
+{
+    position: relative;
+    padding-left: 30px;
+}
+
+.heading 
+{
+    font-size: 75px;
+    padding-top: 200px;
+    min-width: 450px;
+    
+    
+}
+
+.info
+{
+
+    max-width: 1200px;
+    position: absolute;
+    top: 400px;
+
+}
+
+.truncate {
+    display: -webkit-box;       /* Use a flex-like box for truncation */
+    -webkit-line-clamp: 3;      /* Show only 3 lines (adjust as needed) */
+    -webkit-box-orient: vertical;
+    overflow: hidden;           /* Hide overflow text */
+    text-overflow: ellipsis;    /* Add "..." at the end */
+    line-height: 1.5em;         /* Adjust line height as needed */
+    max-height: 4.5em;          /* Limit the height to 3 lines * 1.5em */
+  }
+  
+
+
+.banner-buttons
+{
+    position: absolute;
+    top: 600px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.banner-button
+{
+    padding: 17px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(192, 192, 192 , 0.9);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.banner-button2
+{
+    padding: 17px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(133, 133, 133 , 0.5);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.banner-button2:hover,.banner-button:hover
+{
+    cursor: pointer;
+}
+
+.div-gradient {
+    height: 100px;
+    background-image: linear-gradient(
+      180deg, 
+      transparent, 
+      rgba(36, 36, 36, 0.61), 
+      #111
+    );
+    margin-top: 337px;
+  }
+  
+
+
+@media (max-width:765px)
+{
+    .banner-buttons
+    {
+        margin-top: 86px;
+    }
+    .info
+    {
+        margin-top: 135px;
+    }
+}
